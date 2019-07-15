@@ -12,7 +12,7 @@ import (
 )
 
 func main() {
-	driver := flag.String("engine", "postgres", "Select one of supported dirvers. { postgres }")
+	driver := flag.String("driver", "postgres", "Select one of supported dirvers. { postgres }")
 	connection := flag.String("connection", "", "The appropriate connection string.")
 	query := flag.String("query", "", "The query to get data from database.")
 	format := flag.String("format", "csv", "The format for printing the result of query. { csv }")
